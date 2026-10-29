@@ -38,6 +38,7 @@ Polaris Tweaks gives you information, comfort and safety. It does not give you a
 
 - **Right Shift** opens the menu (the key can be changed in *Settings*). There is also a **✦ Polaris** button on the
   title screen and the pause screen.
+- Press **F1** to hide the HUD modules, as with the Minecraft HUD. They are also hidden while the menu is open.
 - Start typing with the menu open to search for a module. Click a row to configure it; click the switch or right-click
   the row to toggle it. Every module can have its own key (toggle or hold).
 - **HUD editor**: *Settings* → *Edit HUD Layout*. Drag elements around, use the mouse wheel to resize them and
@@ -53,7 +54,6 @@ Polaris Tweaks gives you information, comfort and safety. It does not give you a
 | M | Open the full-screen world map (Minimap) |
 | R | Sort the open inventory or chest (Inventory Sorter) |
 | C | Zoom (hold) |
-| L | Name the container you look at (Container Labels) |
 | Left Alt | Switch the block orientation while placing (Enhanced Placement) |
 
 All of them can be changed in the module settings.
@@ -78,8 +78,6 @@ Turn off *Orient Blocks* if a server does not like it.
 |---|---|
 | Spawn Rings | Rings with the mob spawning radii around you: 24, 32 and 128 blocks. |
 | Redstone Inspector | Power, delay, mode and direction of the redstone block you look at, signal strength over redstone dust and the blast radius of TNT. |
-| Container Labels | Name your chests, barrels and shulker boxes and read the labels from far away. |
-| Slime Chunks | Shows the slime chunks of the Overworld. It reads the seed in a local world; on a server you type the seed in the module settings. |
 
 ### Player
 
@@ -110,7 +108,7 @@ Turn off *Orient Blocks* if a server does not like it.
 | Fullbright | Lights up dark areas without changing your brightness setting. |
 | No Fog | Removes or reduces fog by type. |
 | Light Level Overlay | Marks where monsters can spawn. |
-| Chunk Borders | Shows chunk borders, with an option to mark slime chunks. |
+| Chunk Borders | Shows chunk borders. Its slime chunk mode turns them green while you stand in a slime chunk (it reads the seed in a local world; on a server you type the seed in the module settings). |
 | Item Physics | Items on the ground lie flat instead of floating and spinning. |
 | Health Bar | Floating health bar over the entity you look at. |
 | Connected Glass | Joins matching glass blocks and panes by removing the frame between them. |
