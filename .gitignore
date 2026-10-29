@@ -1,0 +1,62 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# development game logs
+logs/
+
+# ---------------------------------------------------------------------------
+# Closed source: the source code and the build project stay local only. The
+# public repository only contains README, LICENSE and this file; the .jar files
+# are published in the releases.
+# ---------------------------------------------------------------------------
+src/
+tools/
+docs/
+gradle/
+gradlew
+gradlew.bat
+build.gradle
+settings.gradle
+gradle.properties
+*.jar
+backups/
+
+PROPUESTA.md
